@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baxtiyor Umid Education - Matematika</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        Baxtiyor Umid Education
+        <span>Online Matematika Kurslari</span>
+    </div>
+
+    <nav>
+        <a href="#">Bosh sahifa</a>
+        <a href="#courses">Kurslar</a>
+        <a href="#contact">Aloqa</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Matematika Oson va Qiziqarli!</h1>
+    <p>Algebra, Geometriya va Oliy matematika kurslari</p>
+    <a href="#courses" class="btn">Kurslarni Ko‘rish</a>
+</section>
+
+<section id="courses" class="courses">
+    <h2>Matematika Kurslari</h2>
+
+    <div class="course-container">
+
+        <div class="card">
+            <h3>Algebra</h3>
+            <p>Tenglamalar, funksiyalar, formulalar</p>
+            <button onclick="openCourse('Algebra')">Boshlash</button>
+        </div>
+
+        <div class="card">
+            <h3>Geometriya</h3>
+            <p>Figuralar, teoremalar, isbotlar</p>
+            <button onclick="openCourse('Geometriya')">Boshlash</button>
+        </div>
+
+        <div class="card">
+            <h3>Oliy Matematika</h3>
+            <p>Integral, hosila va limitlar</p>
+            <button onclick="openCourse('Oliy Matematika')">Boshlash</button>
+        </div>
+
+    </div>
+</section>
+
+<section class="calculator">
+    <h2>Kichik Kalkulyator</h2>
+    <input type="number" id="num1" placeholder="1-son">
+    <input type="number" id="num2" placeholder="2-son">
+    <button onclick="calculate()">Hisoblash</button>
+    <p id="result"></p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Aloqa</h2>
+    <p>Email: info@baxtiyorumid.uz</p>
+    <p>Telefon: +998 90 123 45 67</p>
+</section>
+
+<footer>
+    <p>© 2026 Baxtiyor Umid Education</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
